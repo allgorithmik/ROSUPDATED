@@ -1,0 +1,21 @@
+[1.590s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg
+[2.376s] running develop
+[2.661s] running egg_info
+[2.663s] writing my_python_pkg.egg-info/PKG-INFO
+[2.668s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[2.671s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[2.675s] writing requirements to my_python_pkg.egg-info/requires.txt
+[2.677s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[2.762s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[2.850s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[2.969s] running build_ext
+[2.977s] Creating /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[2.998s] Installing add_two_ints script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.016s] Installing add_two_ints_no_oop script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.033s] Installing publisher script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.051s] Installing python_node script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.066s] Installing subscriber script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.086s] 
+[3.087s] Installed /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg
+[3.090s] running install_data
+[3.148s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg

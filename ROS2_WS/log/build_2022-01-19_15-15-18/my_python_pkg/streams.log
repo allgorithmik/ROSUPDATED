@@ -1,0 +1,32 @@
+[3.254s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --uninstall --editable --build-directory /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build
+[4.449s] running develop
+[4.883s] Removing /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[4.888s] Link points to ['/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg', '.']: uninstall aborted
+[4.910s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --uninstall --editable --build-directory /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build
+[4.918s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/src/my_python_pkg': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build install --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --record /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/install.log --single-version-externally-managed
+[5.907s] running egg_info
+[5.916s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[5.926s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[5.933s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[5.938s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[5.943s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[6.045s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[6.138s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[6.141s] running build
+[6.143s] running build_py
+[6.157s] copying my_python_pkg/add_two_ints.py -> /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build/lib/my_python_pkg
+[6.251s] running install
+[6.258s] running install_lib
+[6.305s] copying /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build/lib/my_python_pkg/add_two_ints.py -> /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg
+[6.450s] byte-compiling /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg/add_two_ints.py to add_two_ints.cpython-38.pyc
+[6.573s] running install_data
+[6.603s] running install_egg_info
+[6.621s] removing '/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.685s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info
+[6.928s] running install_scripts
+[6.988s] Installing add_two_ints script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.005s] Installing publisher script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.018s] Installing python_node script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.032s] Installing subscriber script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.049s] writing list of installed files to '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/install.log'
+[7.070s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/src/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build install --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --record /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/install.log --single-version-externally-managed
