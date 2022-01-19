@@ -17,8 +17,8 @@ def main(args=None):
         node.get_logger().warn("waiting for server")
     
     request = AddTwoInts.Request()
-    request.a = 10
-    request.b = 10
+    request.a = 11
+    request.b = 11
 
     future = client.call_async(request)
     rclpy.spin_until_future_complete(node, future)
