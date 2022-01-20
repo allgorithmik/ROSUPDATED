@@ -24,7 +24,8 @@ setup(
             "publisher = my_python_pkg.Publisher:main",
             "subscriber = my_python_pkg.Subscriber:main",
             "add_two_ints = my_python_pkg.add_two_ints:main",
-            "add_two_ints_no_oop = my_python_pkg.service_client:main"
+            "add_two_ints_no_oop = my_python_pkg.service_client:main",
+            "add_two_ints_oop = my_python_pkg.service_client_oop:main"
         ],
     },
 )
