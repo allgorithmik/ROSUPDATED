@@ -1,0 +1,21 @@
+[0.123s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+[0.262s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.413s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.947s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.143s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.841s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.982s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.086s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[5.088s]   ament_target_dependencies() the first argument must be a valid target name
+[5.089s] Call Stack (most recent call first):
+[5.091s]   CMakeLists.txt:34 (ament_target_dependencies)
+[5.092s] 
+[5.093s] 
+[5.100s] -- Configuring incomplete, errors occurred!
+[5.101s] See also "/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package/CMakeFiles/CMakeOutput.log".
+[5.102s] See also "/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package/CMakeFiles/CMakeError.log".
+[5.114s] make: *** [Makefile:442: cmake_check_build_system] Error 1
+[5.117s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12

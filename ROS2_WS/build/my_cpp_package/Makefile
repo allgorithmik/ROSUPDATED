@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -123,18 +135,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package/CMakeFiles /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package/CMakeFiles/progress.marks
@@ -179,6 +179,19 @@ add_two_ints_client_no_oop: cmake_check_build_system
 add_two_ints_client_no_oop/fast:
 	$(MAKE) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/build
 .PHONY : add_two_ints_client_no_oop/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_client_oop
+
+# Build rule for target.
+add_two_ints_client_oop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client_oop
+.PHONY : add_two_ints_client_oop
+
+# fast build rule for target.
+add_two_ints_client_oop/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_client_oop.dir/build.make CMakeFiles/add_two_ints_client_oop.dir/build
+.PHONY : add_two_ints_client_oop/fast
 
 #=============================================================================
 # Target rules for targets named cpp_node
@@ -284,6 +297,33 @@ src/add_two_ints_client_no_oop.s: src/add_two_ints_client_no_oop.cpp.s
 src/add_two_ints_client_no_oop.cpp.s:
 	$(MAKE) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.s
 .PHONY : src/add_two_ints_client_no_oop.cpp.s
+
+src/add_two_ints_client_oop.o: src/add_two_ints_client_oop.cpp.o
+
+.PHONY : src/add_two_ints_client_oop.o
+
+# target to build an object file
+src/add_two_ints_client_oop.cpp.o:
+	$(MAKE) -f CMakeFiles/add_two_ints_client_oop.dir/build.make CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o
+.PHONY : src/add_two_ints_client_oop.cpp.o
+
+src/add_two_ints_client_oop.i: src/add_two_ints_client_oop.cpp.i
+
+.PHONY : src/add_two_ints_client_oop.i
+
+# target to preprocess a source file
+src/add_two_ints_client_oop.cpp.i:
+	$(MAKE) -f CMakeFiles/add_two_ints_client_oop.dir/build.make CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.i
+.PHONY : src/add_two_ints_client_oop.cpp.i
+
+src/add_two_ints_client_oop.s: src/add_two_ints_client_oop.cpp.s
+
+.PHONY : src/add_two_ints_client_oop.s
+
+# target to generate assembly for a file
+src/add_two_ints_client_oop.cpp.s:
+	$(MAKE) -f CMakeFiles/add_two_ints_client_oop.dir/build.make CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.s
+.PHONY : src/add_two_ints_client_oop.cpp.s
 
 src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
 
@@ -400,7 +440,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... add_two_ints_client_no_oop"
+	@echo "... add_two_ints_client_oop"
 	@echo "... cpp_node"
 	@echo "... publisher"
 	@echo "... subscriber"
@@ -412,10 +454,12 @@ help:
 	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... install/local"
 	@echo "... src/add_two_ints_client_no_oop.o"
 	@echo "... src/add_two_ints_client_no_oop.i"
 	@echo "... src/add_two_ints_client_no_oop.s"
+	@echo "... src/add_two_ints_client_oop.o"
+	@echo "... src/add_two_ints_client_oop.i"
+	@echo "... src/add_two_ints_client_oop.s"
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"

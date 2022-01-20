@@ -1,0 +1,48 @@
+[0.123s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+[0.240s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.904s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.081s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.736s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.891s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.530s] -- Configuring done
+[6.184s] -- Generating done
+[6.321s] -- Build files have been written to: /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
+[6.503s] [35m[1mScanning dependencies of target add_two_ints_client_oop[0m
+[6.716s] [ 33%] Built target cpp_node
+[6.718s] [ 33%] Built target publisher
+[6.734s] [ 58%] Built target add_two_ints_server
+[6.741s] [ 75%] Built target add_two_ints_client_no_oop
+[6.746s] [ 83%] Built target subscriber
+[7.621s] [ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o[0m
+[10.442s] [100%] [32m[1mLinking CXX executable add_two_ints_client_oop[0m
+[12.099s] [100%] Built target add_two_ints_client_oop
+[12.156s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+[12.247s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
+[12.260s] -- Install configuration: ""
+[12.298s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[12.364s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/publisher
+[12.436s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/subscriber
+[12.502s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server
+[12.571s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_no_oop
+[12.620s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oop
+[12.734s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oop" to ""
+[12.759s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[12.793s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[12.809s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[12.828s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[12.890s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[12.913s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[12.975s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[12.994s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[13.015s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[13.033s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[13.093s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.dsv
+[13.157s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[13.179s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[13.196s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[13.214s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.xml
+[13.224s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
