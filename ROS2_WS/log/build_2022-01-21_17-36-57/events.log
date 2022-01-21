@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (-) JobUnselected: {'identifier': 'my_cpp_package'}
+[0.001224] (-) JobUnselected: {'identifier': 'my_interface_pkg'}
+[0.002367] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict([('my_interface_pkg', '/mnt/d/programming/ROS2/ROS2_WS/install/my_interface_pkg')])}
+[0.002934] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.098516] (-) TimerEvent: {}
+[0.199460] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.401386] (-) TimerEvent: {}
+[0.502308] (-) TimerEvent: {}
+[0.603312] (-) TimerEvent: {}
+[0.704249] (-) TimerEvent: {}
+[0.805057] (-) TimerEvent: {}
+[0.905837] (-) TimerEvent: {}
+[1.006485] (-) TimerEvent: {}
+[1.107360] (-) TimerEvent: {}
+[1.208665] (-) TimerEvent: {}
+[1.309680] (-) TimerEvent: {}
+[1.410653] (-) TimerEvent: {}
+[1.511698] (-) TimerEvent: {}
+[1.612528] (-) TimerEvent: {}
+[1.713423] (-) TimerEvent: {}
+[1.814614] (-) TimerEvent: {}
+[1.915593] (-) TimerEvent: {}
+[2.016510] (-) TimerEvent: {}
+[2.118181] (-) TimerEvent: {}
+[2.219097] (-) TimerEvent: {}
+[2.320196] (-) TimerEvent: {}
+[2.421604] (-) TimerEvent: {}
+[2.522699] (-) TimerEvent: {}
+[2.623551] (-) TimerEvent: {}
+[2.725284] (-) TimerEvent: {}
+[2.826308] (-) TimerEvent: {}
+[2.927354] (-) TimerEvent: {}
+[3.028327] (-) TimerEvent: {}
+[3.129291] (-) TimerEvent: {}
+[3.230709] (-) TimerEvent: {}
+[3.331639] (-) TimerEvent: {}
+[3.432964] (-) TimerEvent: {}
+[3.534166] (-) TimerEvent: {}
+[3.635374] (-) TimerEvent: {}
+[3.736839] (-) TimerEvent: {}
+[3.837747] (-) TimerEvent: {}
+[3.938649] (-) TimerEvent: {}
+[4.040184] (-) TimerEvent: {}
+[4.141560] (-) TimerEvent: {}
+[4.242706] (-) TimerEvent: {}
+[4.336480] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg', '--editable', '--build-directory', '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build', '--no-deps', 'install_data', '--install-dir', '/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg'], 'cwd': '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vishwas', 'HOST_IP': '172.25.16.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}', 'HOME': '/home/vishwas', 'OLDPWD': '/mnt/d/programming/ROS2', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'COLCON_PREFIX_PATH': '/mnt/d/Programming/ROS2/ROS2_WS/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'vishwas', 'NAME': 'Vishwas', 'WSL_INTEROP': '/run/WSL/3989_interop', 'PULSE_SERVER': 'tcp:172.25.16.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/MATLAB/R2021b/runtime/win64:/mnt/d/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin', 'WT_SESSION': '3aea5ca6-4138-4a0f-b7ca-2bf8592054f7', 'DISPLAY': '172.22.32.1:0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[4.352132] (-) TimerEvent: {}
+[4.452864] (-) TimerEvent: {}
+[4.553769] (-) TimerEvent: {}
+[4.655116] (-) TimerEvent: {}
+[4.757055] (-) TimerEvent: {}
+[4.858131] (-) TimerEvent: {}
+[4.958983] (-) TimerEvent: {}
+[5.060183] (-) TimerEvent: {}
+[5.161278] (-) TimerEvent: {}
+[5.262362] (-) TimerEvent: {}
+[5.363693] (-) TimerEvent: {}
+[5.464797] (-) TimerEvent: {}
+[5.565891] (-) TimerEvent: {}
+[5.666916] (-) TimerEvent: {}
+[5.767827] (-) TimerEvent: {}
+[5.868612] (-) TimerEvent: {}
+[5.969598] (-) TimerEvent: {}
+[6.070914] (-) TimerEvent: {}
+[6.171396] (my_python_pkg) StdoutLine: {'line': b'running develop\n'}
+[6.174483] (-) TimerEvent: {}
+[6.275232] (-) TimerEvent: {}
+[6.376153] (-) TimerEvent: {}
+[6.477166] (-) TimerEvent: {}
+[6.578753] (-) TimerEvent: {}
+[6.588868] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.591155] (my_python_pkg) StdoutLine: {'line': b'writing my_python_pkg.egg-info/PKG-INFO\n'}
+[6.596994] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to my_python_pkg.egg-info/dependency_links.txt\n'}
+[6.601604] (my_python_pkg) StdoutLine: {'line': b'writing entry points to my_python_pkg.egg-info/entry_points.txt\n'}
+[6.606431] (my_python_pkg) StdoutLine: {'line': b'writing requirements to my_python_pkg.egg-info/requires.txt\n'}
+[6.611140] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to my_python_pkg.egg-info/top_level.txt\n'}
+[6.678927] (-) TimerEvent: {}
+[6.718225] (my_python_pkg) StdoutLine: {'line': b"reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'\n"}
+[6.779083] (-) TimerEvent: {}
+[6.821825] (my_python_pkg) StdoutLine: {'line': b"writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'\n"}
+[6.879399] (-) TimerEvent: {}
+[6.980702] (-) TimerEvent: {}
+[7.006349] (my_python_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[7.015078] (my_python_pkg) StdoutLine: {'line': b'Creating /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)\n'}
+[7.036068] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.050870] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints_no_oop script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.067159] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints_oop script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.080844] (-) TimerEvent: {}
+[7.087680] (my_python_pkg) StdoutLine: {'line': b'Installing hardware_status_publisher script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.099951] (my_python_pkg) StdoutLine: {'line': b'Installing publisher script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.116100] (my_python_pkg) StdoutLine: {'line': b'Installing python_node script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.135328] (my_python_pkg) StdoutLine: {'line': b'Installing subscriber script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg\n'}
+[7.154810] (my_python_pkg) StdoutLine: {'line': b'\n'}
+[7.156920] (my_python_pkg) StdoutLine: {'line': b'Installed /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg\n'}
+[7.158606] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.180969] (-) TimerEvent: {}
+[7.185605] (my_python_pkg) StdoutLine: {'line': b'copying package.xml -> /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/share/my_python_pkg\n'}
+[7.225830] (my_python_pkg) CommandEnded: {'returncode': 0}
+[7.281110] (-) TimerEvent: {}
+[7.382495] (-) TimerEvent: {}
+[7.483256] (-) TimerEvent: {}
+[7.515753] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[7.526929] (-) EventReactorShutdown: {}

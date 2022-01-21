@@ -1,0 +1,24 @@
+[4.347s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg
+[6.170s] running develop
+[6.587s] running egg_info
+[6.589s] writing my_python_pkg.egg-info/PKG-INFO
+[6.595s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[6.600s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[6.605s] writing requirements to my_python_pkg.egg-info/requires.txt
+[6.610s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[6.717s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[6.820s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[7.004s] running build_ext
+[7.013s] Creating /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[7.034s] Installing add_two_ints script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.050s] Installing add_two_ints_no_oop script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.066s] Installing add_two_ints_oop script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.086s] Installing hardware_status_publisher script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.099s] Installing publisher script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.115s] Installing python_node script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.134s] Installing subscriber script to /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[7.153s] 
+[7.155s] Installed /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg
+[7.156s] running install_data
+[7.184s] copying package.xml -> /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/share/my_python_pkg
+[7.225s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/programming/ROS2/ROS2_WS/install/my_python_pkg
