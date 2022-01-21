@@ -80,16 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -101,6 +91,16 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target test
 test:
@@ -259,6 +259,19 @@ my_cpp_package_uninstall/fast:
 .PHONY : my_cpp_package_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named hw_status_check_cpp
+
+# Build rule for target.
+hw_status_check_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hw_status_check_cpp
+.PHONY : hw_status_check_cpp
+
+# fast build rule for target.
+hw_status_check_cpp/fast:
+	$(MAKE) -f CMakeFiles/hw_status_check_cpp.dir/build.make CMakeFiles/hw_status_check_cpp.dir/build
+.PHONY : hw_status_check_cpp/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -352,6 +365,33 @@ src/add_two_ints_server.cpp.s:
 	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
 
+src/hw_status_check_cpp.o: src/hw_status_check_cpp.cpp.o
+
+.PHONY : src/hw_status_check_cpp.o
+
+# target to build an object file
+src/hw_status_check_cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/hw_status_check_cpp.dir/build.make CMakeFiles/hw_status_check_cpp.dir/src/hw_status_check_cpp.cpp.o
+.PHONY : src/hw_status_check_cpp.cpp.o
+
+src/hw_status_check_cpp.i: src/hw_status_check_cpp.cpp.i
+
+.PHONY : src/hw_status_check_cpp.i
+
+# target to preprocess a source file
+src/hw_status_check_cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/hw_status_check_cpp.dir/build.make CMakeFiles/hw_status_check_cpp.dir/src/hw_status_check_cpp.cpp.i
+.PHONY : src/hw_status_check_cpp.cpp.i
+
+src/hw_status_check_cpp.s: src/hw_status_check_cpp.cpp.s
+
+.PHONY : src/hw_status_check_cpp.s
+
+# target to generate assembly for a file
+src/hw_status_check_cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/hw_status_check_cpp.dir/build.make CMakeFiles/hw_status_check_cpp.dir/src/hw_status_check_cpp.cpp.s
+.PHONY : src/hw_status_check_cpp.cpp.s
+
 src/my_first_cpp_node.o: src/my_first_cpp_node.cpp.o
 
 .PHONY : src/my_first_cpp_node.o
@@ -441,6 +481,7 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
 	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_client_oop"
 	@echo "... cpp_node"
@@ -449,7 +490,7 @@ help:
 	@echo "... add_two_ints_server"
 	@echo "... my_cpp_package_uninstall"
 	@echo "... list_install_components"
-	@echo "... install"
+	@echo "... hw_status_check_cpp"
 	@echo "... uninstall"
 	@echo "... test"
 	@echo "... rebuild_cache"
@@ -463,6 +504,9 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/hw_status_check_cpp.o"
+	@echo "... src/hw_status_check_cpp.i"
+	@echo "... src/hw_status_check_cpp.s"
 	@echo "... src/my_first_cpp_node.o"
 	@echo "... src/my_first_cpp_node.i"
 	@echo "... src/my_first_cpp_node.s"
