@@ -57,6 +57,10 @@ CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/hard
 CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__builder.hpp
 CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__struct.hpp
 CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__traits.hpp
+CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/compute_rectangle_area.hpp
+CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp
+CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp
+CMakeFiles/my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp
 
 
 rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -75,6 +79,7 @@ rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: /opt/ros/foxy/sha
 rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: rosidl_adapter/my_interface_pkg/msg/HardwareStatus.idl
+rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp: rosidl_adapter/my_interface_pkg/srv/ComputeRectangleArea.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp__arguments.json
 
@@ -87,11 +92,27 @@ rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__struct.hpp: ro
 rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__traits.hpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__traits.hpp
 
+rosidl_generator_cpp/my_interface_pkg/srv/compute_rectangle_area.hpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interface_pkg/srv/compute_rectangle_area.hpp
+
+rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp
+
+rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp
+
+rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp
+
 my_interface_pkg__cpp: CMakeFiles/my_interface_pkg__cpp
 my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp
 my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__builder.hpp
 my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__struct.hpp
 my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__traits.hpp
+my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/compute_rectangle_area.hpp
+my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp
+my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp
+my_interface_pkg__cpp: rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp
 my_interface_pkg__cpp: CMakeFiles/my_interface_pkg__cpp.dir/build.make
 
 .PHONY : my_interface_pkg__cpp

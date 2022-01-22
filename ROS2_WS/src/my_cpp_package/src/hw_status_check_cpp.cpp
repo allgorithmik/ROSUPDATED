@@ -14,7 +14,7 @@ class HardwareStatusPublisher : public rclcpp::Node{
                 auto msg = my_interface_pkg::msg::HardwareStatus();
                 msg.temperature = 50;
                 msg.are_motors_ready = true;
-                msg.debug_message = "Motors voltage is high!";
+                msg.debug_message = "Motor's voltage is high!";
                 pub_->publish(msg);
             }
 

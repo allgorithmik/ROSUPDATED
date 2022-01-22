@@ -8,6 +8,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__builder.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
   "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__struct.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
   "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/detail/hardware_status__traits.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
+  "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/srv/compute_rectangle_area.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
+  "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
+  "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
+  "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp" "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_cpp/my_interface_pkg/msg/hardware_status.hpp"
   )
 
 

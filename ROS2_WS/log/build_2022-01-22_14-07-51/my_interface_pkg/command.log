@@ -1,0 +1,2 @@
+Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12
+Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12

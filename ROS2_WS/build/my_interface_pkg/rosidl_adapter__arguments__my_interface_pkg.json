@@ -1,6 +1,7 @@
 {
   "package_name": "my_interface_pkg",
   "non_idl_tuples": [
-    "/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg:msg/HardwareStatus.msg"
+    "/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg:msg/HardwareStatus.msg",
+    "/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg:srv/ComputeRectangleArea.srv"
   ]
 }

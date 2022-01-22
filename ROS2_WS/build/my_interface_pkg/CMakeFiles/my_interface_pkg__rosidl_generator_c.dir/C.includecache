@@ -20,6 +20,18 @@ string.h
 rosidl_runtime_c/string_functions.h
 /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_c/my_interface_pkg/msg/detail/rosidl_runtime_c/string_functions.h
 
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__functions.c
+my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
 /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
@@ -67,4 +79,24 @@ rosidl_runtime_c/string.h
 rosidl_generator_c/my_interface_pkg/msg/detail/rosidl_runtime_c/string.h
 
 rosidl_generator_c/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/my_interface_pkg/srv/detail/rosidl_runtime_c/visibility_control.h
+my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+
+rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 

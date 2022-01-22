@@ -54,6 +54,9 @@ CMAKE_BINARY_DIR = /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg
 include CMakeFiles/my_interface_pkg.dir/progress.make
 
 CMakeFiles/my_interface_pkg: /mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg/msg/HardwareStatus.msg
+CMakeFiles/my_interface_pkg: /mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg/srv/ComputeRectangleArea.srv
+CMakeFiles/my_interface_pkg: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
+CMakeFiles/my_interface_pkg: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
 
 
 my_interface_pkg: CMakeFiles/my_interface_pkg

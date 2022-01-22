@@ -1,0 +1,25 @@
+[0.175s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12
+[0.594s] CMake Warning (dev) at CMakeLists.txt:18:
+[0.595s]   Syntax Warning in cmake code at column 27
+[0.596s] 
+[0.598s]   Argument not separated from preceding token by whitespace.
+[0.599s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.601s] 
+[0.630s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.026s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.110s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.152s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.079s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[7.081s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[7.083s]   the CMAKE_CURRENT_SOURCE_DIR
+[7.084s]   '/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg'
+[7.086s] Call Stack (most recent call first):
+[7.087s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[7.088s] 
+[7.089s] 
+[7.098s] -- Configuring incomplete, errors occurred!
+[7.100s] See also "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles/CMakeOutput.log".
+[7.125s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[7.127s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12

@@ -70,14 +70,29 @@ CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c -o CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.s
 
+CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o: CMakeFiles/my_interface_pkg__python.dir/flags.make
+CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o: rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o   -c /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c
+
+CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c > CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.i
+
+CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c -o CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.s
+
 # Object files for target my_interface_pkg__python
 my_interface_pkg__python_OBJECTS = \
-"CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.o"
+"CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.o" \
+"CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o"
 
 # External object files for target my_interface_pkg__python
 my_interface_pkg__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.o
+rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: CMakeFiles/my_interface_pkg__python.dir/build.make
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: libmy_interface_pkg__rosidl_generator_c.so
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -87,7 +102,7 @@ rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: /opt/ros/fo
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so: CMakeFiles/my_interface_pkg__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_interface_pkg__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

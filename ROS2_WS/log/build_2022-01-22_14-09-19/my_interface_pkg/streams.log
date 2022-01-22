@@ -1,0 +1,231 @@
+[0.280s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12
+[0.917s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.310s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.352s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.789s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[9.277s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[14.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.908s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.911s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[15.287s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.290s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[15.292s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[15.901s] -- Configuring done
+[16.998s] -- Generating done
+[17.160s] -- Build files have been written to: /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg
+[17.482s] [35m[1mScanning dependencies of target my_interface_pkg__cpp[0m
+[17.508s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.706s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.319s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_generator_c[0m
+[19.513s] [  5%] Built target my_interface_pkg__cpp
+[19.730s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.733s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.879s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.957s] [ 15%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_interface_pkg/msg/detail/hardware_status__functions.c.o[0m
+[19.982s] [ 17%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__functions.c.o[0m
+[20.497s] [ 20%] [32m[1mLinking C shared library libmy_interface_pkg__rosidl_generator_c.so[0m
+[21.257s] [ 20%] Built target my_interface_pkg__rosidl_generator_c
+[21.456s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.488s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.514s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_cpp[0m
+[21.689s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[21.842s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_introspection_cpp[0m
+[22.191s] [ 28%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface_pkg/msg/hardware_status__type_support.cpp.o[0m
+[22.247s] [ 30%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface_pkg/srv/compute_rectangle_area__type_support.cpp.o[0m
+[22.696s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface_pkg/msg/detail/hardware_status__type_support.cpp.o[0m
+[22.742s] [ 35%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[23.115s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface_pkg/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[23.143s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface_pkg/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[23.209s] [ 43%] [32m[1mLinking CXX shared library libmy_interface_pkg__rosidl_typesupport_cpp.so[0m
+[23.436s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_c[0m
+[23.803s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_introspection_c[0m
+[23.899s] [ 46%] [32m[1mLinking CXX shared library libmy_interface_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[23.934s] [ 46%] Built target my_interface_pkg__rosidl_typesupport_cpp
+[24.139s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface_pkg/msg/hardware_status__type_support.cpp.o[0m
+[24.210s] [ 51%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface_pkg/srv/compute_rectangle_area__type_support.cpp.o[0m
+[24.793s] [ 53%] [32m[1mLinking CXX shared library libmy_interface_pkg__rosidl_typesupport_c.so[0m
+[24.820s] [ 56%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface_pkg/msg/detail/hardware_status__type_support.c.o[0m
+[24.848s] [ 58%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[24.858s] [ 58%] Built target my_interface_pkg__rosidl_typesupport_introspection_cpp
+[24.932s] [ 61%] [32m[1mLinking CXX shared library libmy_interface_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[25.423s] [ 61%] Built target my_interface_pkg__rosidl_typesupport_c
+[25.464s] [ 64%] [32m[1mLinking C shared library libmy_interface_pkg__rosidl_typesupport_introspection_c.so[0m
+[25.952s] [ 64%] Built target my_interface_pkg__rosidl_typesupport_fastrtps_cpp
+[26.158s] [ 66%] Built target my_interface_pkg__rosidl_typesupport_introspection_c
+[26.160s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[27.739s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_fastrtps_c[0m
+[28.416s] [ 69%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface_pkg/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[28.447s] [ 71%] [32mBuilding CXX object CMakeFiles/my_interface_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface_pkg/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[29.854s] [ 74%] [32m[1mLinking CXX shared library libmy_interface_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[30.449s] [ 74%] Built target my_interface_pkg__rosidl_typesupport_fastrtps_c
+[30.805s] [ 74%] Built target my_interface_pkg
+[31.005s] [35m[1mScanning dependencies of target my_interface_pkg__py[0m
+[31.231s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[32.957s] [ 76%] Built target my_interface_pkg__py
+[33.147s] [35m[1mScanning dependencies of target my_interface_pkg__python[0m
+[33.755s] [ 79%] [32mBuilding C object CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.o[0m
+[33.778s] [ 82%] [32mBuilding C object CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o[0m
+[34.424s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so[0m
+[34.969s] [ 84%] Built target my_interface_pkg__python
+[35.118s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[35.120s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_c__pyext[0m
+[35.261s] [35m[1mScanning dependencies of target my_interface_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[36.005s] [ 87%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[36.143s] [ 89%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.214s] [ 92%] [32mBuilding C object CMakeFiles/my_interface_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.073s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[37.293s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[37.455s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[37.752s] [100%] Built target my_interface_pkg__rosidl_typesupport_c__pyext
+[38.002s] [100%] Built target my_interface_pkg__rosidl_typesupport_introspection_c__pyext
+[38.166s] [100%] Built target my_interface_pkg__rosidl_typesupport_fastrtps_c__pyext
+[38.388s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12
+[40.508s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg
+[40.616s] -- Install configuration: ""
+[40.640s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/ament_index/resource_index/rosidl_interfaces/my_interface_pkg
+[40.704s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[40.720s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[40.741s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[40.772s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__functions.c
+[40.851s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__functions.h
+[40.926s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__struct.h
+[41.008s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__type_support.h
+[41.079s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/hardware_status.h
+[41.143s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+[41.156s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[41.181s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/compute_rectangle_area.h
+[41.250s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[41.282s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__functions.c
+[41.355s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+[41.427s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+[41.500s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.h
+[41.566s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/library_path.sh
+[41.586s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/library_path.dsv
+[41.660s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_generator_c.so
+[41.738s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_generator_c.so" to ""
+[41.749s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[41.765s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[41.791s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[41.820s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[41.891s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.904s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[41.924s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[41.950s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[42.041s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_fastrtps_c.so
+[42.110s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[42.120s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[42.135s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[42.156s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[42.179s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/dds_fastrtps
+[42.210s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[42.283s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[42.297s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[42.321s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[42.347s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[42.418s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/dds_fastrtps
+[42.470s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_fastrtps_cpp.so
+[42.537s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[42.546s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[42.562s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[42.582s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[42.610s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[42.681s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__type_support.c
+[42.753s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[42.767s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[42.790s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[42.820s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[42.889s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.c
+[42.976s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_introspection_c.so
+[43.043s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_introspection_c.so" to ""
+[43.074s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_c.so
+[43.148s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_c.so" to ""
+[43.156s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[43.172s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[43.193s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[43.221s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__builder.hpp
+[43.291s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__struct.hpp
+[43.370s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__traits.hpp
+[43.449s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/hardware_status.hpp
+[43.508s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[43.534s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/compute_rectangle_area.hpp
+[43.582s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[43.607s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__builder.hpp
+[43.664s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__struct.hpp
+[43.727s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__traits.hpp
+[43.782s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg
+[43.797s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg
+[43.815s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail
+[43.840s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[43.908s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/msg/detail/hardware_status__type_support.cpp
+[43.971s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv
+[43.988s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail
+[44.014s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[44.072s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/include/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.cpp
+[44.145s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_introspection_cpp.so
+[44.213s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[44.239s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_cpp.so
+[44.293s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__rosidl_typesupport_cpp.so" to ""
+[44.306s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/pythonpath.sh
+[44.322s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/pythonpath.dsv
+[44.373s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/__init__.py
+[44.912s] Compiling '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/__init__.py'...
+[44.928s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/msg
+[44.954s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/msg/_hardware_status.py
+[45.029s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/msg/_hardware_status_s.c
+[45.096s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/msg/__init__.py
+[45.153s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/srv
+[45.183s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/srv/_compute_rectangle_area.py
+[45.246s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/srv/_compute_rectangle_area_s.c
+[45.308s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/srv/__init__.py
+[45.394s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[45.485s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[45.524s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[45.610s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[45.645s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[45.731s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages/my_interface_pkg/my_interface_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[45.761s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__python.so
+[45.826s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/libmy_interface_pkg__python.so" to ""
+[45.841s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/msg/HardwareStatus.idl
+[45.864s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/srv/ComputeRectangleArea.idl
+[45.914s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/msg/HardwareStatus.msg
+[45.928s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/srv/ComputeRectangleArea.srv
+[45.977s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/srv/ComputeRectangleArea_Request.msg
+[46.026s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/srv/ComputeRectangleArea_Response.msg
+[46.083s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/ament_index/resource_index/package_run_dependencies/my_interface_pkg
+[46.108s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/ament_index/resource_index/parent_prefix_path/my_interface_pkg
+[46.163s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/ament_prefix_path.sh
+[46.180s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/ament_prefix_path.dsv
+[46.225s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/path.sh
+[46.239s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/environment/path.dsv
+[46.286s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/local_setup.bash
+[46.299s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/local_setup.sh
+[46.313s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/local_setup.zsh
+[46.328s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/local_setup.dsv
+[46.369s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/package.dsv
+[46.426s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/ament_index/resource_index/packages/my_interface_pkg
+[46.459s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_generator_cExport.cmake
+[46.481s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_generator_cExport-noconfig.cmake
+[46.556s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_introspection_cExport.cmake
+[46.578s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[46.648s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_cExport.cmake
+[46.672s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[46.745s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_generator_cppExport.cmake
+[46.778s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[46.799s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[46.872s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_cppExport.cmake
+[46.893s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[46.958s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/rosidl_cmake-extras.cmake
+[47.010s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.025s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[47.043s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[47.059s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.076s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.091s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.109s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkgConfig.cmake
+[47.120s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/cmake/my_interface_pkgConfig-version.cmake
+[47.133s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/share/my_interface_pkg/package.xml
+[47.146s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg

@@ -57,8 +57,11 @@ my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_int
 my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_introspection_c.c
 my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_c.c
 my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/_hardware_status.py
+my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area.py
 my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/__init__.py
+my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/__init__.py
 my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c
+my_interface_pkg__py/CMakeFiles/my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c
 
 
 rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +78,7 @@ rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_f
 rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_interface_pkg/msg/HardwareStatus.idl
+rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_interface_pkg/srv/ComputeRectangleArea.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/my_interface_pkg__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -87,19 +91,31 @@ rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_c
 rosidl_generator_py/my_interface_pkg/msg/_hardware_status.py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/msg/_hardware_status.py
 
+rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area.py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area.py
+
 rosidl_generator_py/my_interface_pkg/msg/__init__.py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/msg/__init__.py
 
+rosidl_generator_py/my_interface_pkg/srv/__init__.py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/srv/__init__.py
+
 rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c
+
+rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c
 
 my_interface_pkg__py: my_interface_pkg__py/CMakeFiles/my_interface_pkg__py
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_introspection_c.c
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/_my_interface_pkg_s.ep.rosidl_typesupport_c.c
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/_hardware_status.py
+my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area.py
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/__init__.py
+my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/__init__.py
 my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c
+my_interface_pkg__py: rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c
 my_interface_pkg__py: my_interface_pkg__py/CMakeFiles/my_interface_pkg__py.dir/build.make
 
 .PHONY : my_interface_pkg__py

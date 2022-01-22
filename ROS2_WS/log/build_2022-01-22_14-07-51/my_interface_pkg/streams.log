@@ -1,0 +1,20 @@
+[0.267s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12
+[0.844s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.200s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.300s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.355s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.483s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.485s]   rosidl_generate_interfaces() the passed file 'srv/CompteRectangleArea.srv'
+[8.487s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.488s]   '/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg'
+[8.490s] Call Stack (most recent call first):
+[8.491s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[8.492s] 
+[8.493s] 
+[8.504s] -- Configuring incomplete, errors occurred!
+[8.508s] See also "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles/CMakeOutput.log".
+[8.531s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[8.533s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg -- -j12 -l12

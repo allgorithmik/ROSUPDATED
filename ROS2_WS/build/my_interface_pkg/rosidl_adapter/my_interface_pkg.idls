@@ -1,1 +1,2 @@
 /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_adapter/my_interface_pkg:msg/HardwareStatus.idl
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_adapter/my_interface_pkg:srv/ComputeRectangleArea.idl

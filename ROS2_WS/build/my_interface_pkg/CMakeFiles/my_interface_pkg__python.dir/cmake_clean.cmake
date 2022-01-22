@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/msg/_hardware_status_s.c.o"
+  "CMakeFiles/my_interface_pkg__python.dir/rosidl_generator_py/my_interface_pkg/srv/_compute_rectangle_area_s.c.o"
   "rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.pdb"
   "rosidl_generator_py/my_interface_pkg/libmy_interface_pkg__python.so"
 )

@@ -27,6 +27,12 @@ my_interface_pkg/msg/detail/hardware_status__struct.h
 /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/my_interface_pkg/msg/detail/hardware_status__struct.h
 my_interface_pkg/msg/detail/hardware_status__functions.h
 /mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/my_interface_pkg/msg/detail/hardware_status__functions.h
+my_interface_pkg/srv/detail/compute_rectangle_area__type_support.h
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.h
+my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/rosidl_generator_py/my_interface_pkg/my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
@@ -601,4 +607,34 @@ rosidl_runtime_c/message_type_support_struct.h
 rosidl_generator_c/my_interface_pkg/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
 rosidl_generator_c/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/my_interface_pkg/srv/detail/rosidl_runtime_c/visibility_control.h
+my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+
+rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/my_interface_pkg/srv/detail/compute_rectangle_area__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/my_interface_pkg/srv/detail/rosidl_typesupport_interface/macros.h
+my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/my_interface_pkg/srv/detail/my_interface_pkg/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/my_interface_pkg/srv/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_runtime_c/service_type_support_struct.h
+rosidl_generator_c/my_interface_pkg/srv/detail/rosidl_runtime_c/service_type_support_struct.h
 

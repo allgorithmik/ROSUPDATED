@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001342] (-) JobUnselected: {'identifier': 'my_cpp_package'}
+[0.002635] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.003028] (my_interface_pkg) JobQueued: {'identifier': 'my_interface_pkg', 'dependencies': OrderedDict()}
+[0.003510] (my_interface_pkg) JobStarted: {'identifier': 'my_interface_pkg'}
+[0.095265] (-) TimerEvent: {}
+[0.196076] (-) TimerEvent: {}
+[0.207675] (my_interface_pkg) JobProgress: {'identifier': 'my_interface_pkg', 'progress': 'cmake'}
+[0.247083] (my_interface_pkg) JobProgress: {'identifier': 'my_interface_pkg', 'progress': 'build'}
+[0.256423] (my_interface_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg', '--', '-j12', '-l12'], 'cwd': '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.24.192.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/Programming/ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/806_interop'), ('PULSE_SERVER', 'tcp:172.24.192.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/MATLAB/R2021b/runtime/win64:/mnt/d/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '6e45ea56-8765-4cf3-b1ab-c125fa4978c6'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.296329] (-) TimerEvent: {}
+[0.404670] (-) TimerEvent: {}
+[0.505396] (-) TimerEvent: {}
+[0.606397] (-) TimerEvent: {}
+[0.707050] (-) TimerEvent: {}
+[0.807698] (-) TimerEvent: {}
+[0.847287] (my_interface_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.907816] (-) TimerEvent: {}
+[1.008478] (-) TimerEvent: {}
+[1.109467] (-) TimerEvent: {}
+[1.203132] (my_interface_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.204782] (my_interface_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.209641] (-) TimerEvent: {}
+[1.310436] (-) TimerEvent: {}
+[1.411199] (-) TimerEvent: {}
+[1.511922] (-) TimerEvent: {}
+[1.612434] (-) TimerEvent: {}
+[1.713465] (-) TimerEvent: {}
+[1.814187] (-) TimerEvent: {}
+[1.914935] (-) TimerEvent: {}
+[2.015492] (-) TimerEvent: {}
+[2.115976] (-) TimerEvent: {}
+[2.216609] (-) TimerEvent: {}
+[2.302873] (my_interface_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.316820] (-) TimerEvent: {}
+[2.350254] (my_interface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.358082] (my_interface_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.417023] (-) TimerEvent: {}
+[2.517805] (-) TimerEvent: {}
+[2.618671] (-) TimerEvent: {}
+[2.720116] (-) TimerEvent: {}
+[2.820932] (-) TimerEvent: {}
+[2.921694] (-) TimerEvent: {}
+[3.022530] (-) TimerEvent: {}
+[3.123424] (-) TimerEvent: {}
+[3.224460] (-) TimerEvent: {}
+[3.325498] (-) TimerEvent: {}
+[3.426453] (-) TimerEvent: {}
+[3.527971] (-) TimerEvent: {}
+[3.628925] (-) TimerEvent: {}
+[3.729927] (-) TimerEvent: {}
+[3.830989] (-) TimerEvent: {}
+[3.932530] (-) TimerEvent: {}
+[4.034282] (-) TimerEvent: {}
+[4.135322] (-) TimerEvent: {}
+[4.236342] (-) TimerEvent: {}
+[4.338076] (-) TimerEvent: {}
+[4.438809] (-) TimerEvent: {}
+[4.539696] (-) TimerEvent: {}
+[4.641017] (-) TimerEvent: {}
+[4.741803] (-) TimerEvent: {}
+[4.842835] (-) TimerEvent: {}
+[4.944494] (-) TimerEvent: {}
+[5.045138] (-) TimerEvent: {}
+[5.145765] (-) TimerEvent: {}
+[5.246404] (-) TimerEvent: {}
+[5.347817] (-) TimerEvent: {}
+[5.448727] (-) TimerEvent: {}
+[5.550343] (-) TimerEvent: {}
+[5.652153] (-) TimerEvent: {}
+[5.752683] (-) TimerEvent: {}
+[5.853935] (-) TimerEvent: {}
+[5.955229] (-) TimerEvent: {}
+[6.056100] (-) TimerEvent: {}
+[6.156827] (-) TimerEvent: {}
+[6.257585] (-) TimerEvent: {}
+[6.358156] (-) TimerEvent: {}
+[6.458760] (-) TimerEvent: {}
+[6.559639] (-) TimerEvent: {}
+[6.661020] (-) TimerEvent: {}
+[6.761712] (-) TimerEvent: {}
+[6.862464] (-) TimerEvent: {}
+[6.963388] (-) TimerEvent: {}
+[7.064629] (-) TimerEvent: {}
+[7.165986] (-) TimerEvent: {}
+[7.268064] (-) TimerEvent: {}
+[7.370035] (-) TimerEvent: {}
+[7.471428] (-) TimerEvent: {}
+[7.572058] (-) TimerEvent: {}
+[7.672778] (-) TimerEvent: {}
+[7.773932] (-) TimerEvent: {}
+[7.875359] (-) TimerEvent: {}
+[7.976242] (-) TimerEvent: {}
+[8.077448] (-) TimerEvent: {}
+[8.178178] (-) TimerEvent: {}
+[8.279124] (-) TimerEvent: {}
+[8.381259] (-) TimerEvent: {}
+[8.451302] (my_interface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.481440] (-) TimerEvent: {}
+[8.485879] (my_interface_pkg) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[8.487569] (my_interface_pkg) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/CompteRectangleArea.srv'\n"}
+[8.489179] (my_interface_pkg) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[8.490837] (my_interface_pkg) StderrLine: {'line': b"  '/mnt/d/Programming/ROS2/ROS2_WS/src/my_interface_pkg'\n"}
+[8.492513] (my_interface_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.493832] (my_interface_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[8.495197] (my_interface_pkg) StderrLine: {'line': b'\n'}
+[8.496472] (my_interface_pkg) StderrLine: {'line': b'\n'}
+[8.506327] (my_interface_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.509366] (my_interface_pkg) StdoutLine: {'line': b'See also "/mnt/d/Programming/ROS2/ROS2_WS/build/my_interface_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[8.533674] (my_interface_pkg) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[8.536351] (my_interface_pkg) CommandEnded: {'returncode': 2}
+[8.581676] (-) TimerEvent: {}
+[8.682619] (-) TimerEvent: {}
+[8.783294] (-) TimerEvent: {}
+[8.883904] (-) TimerEvent: {}
+[8.984494] (-) TimerEvent: {}
+[9.085630] (-) TimerEvent: {}
+[9.187058] (-) TimerEvent: {}
+[9.287850] (-) TimerEvent: {}
+[9.388795] (-) TimerEvent: {}
+[9.489711] (-) TimerEvent: {}
+[9.590789] (-) TimerEvent: {}
+[9.691624] (-) TimerEvent: {}
+[9.792455] (-) TimerEvent: {}
+[9.893189] (-) TimerEvent: {}
+[9.993791] (-) TimerEvent: {}
+[10.094963] (-) TimerEvent: {}
+[10.196624] (-) TimerEvent: {}
+[10.297382] (-) TimerEvent: {}
+[10.398240] (-) TimerEvent: {}
+[10.499212] (-) TimerEvent: {}
+[10.600297] (-) TimerEvent: {}
+[10.701446] (-) TimerEvent: {}
+[10.803183] (-) TimerEvent: {}
+[10.903784] (-) TimerEvent: {}
+[11.004461] (-) TimerEvent: {}
+[11.105380] (-) TimerEvent: {}
+[11.206771] (-) TimerEvent: {}
+[11.307586] (-) TimerEvent: {}
+[11.408516] (-) TimerEvent: {}
+[11.463759] (my_interface_pkg) JobEnded: {'identifier': 'my_interface_pkg', 'rc': 2}
+[11.478508] (-) EventReactorShutdown: {}
