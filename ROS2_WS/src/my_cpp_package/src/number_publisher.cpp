@@ -3,10 +3,14 @@
 
 class NumberPublisherNode : public rclcpp::Node{
     public:
-        NumberPublisherNode() : Node("Number_Publisher_CPP"), number_(2){
-            this->declare_parameter("CPP_Number_Publisher_parameter");
+        NumberPublisherNode() : Node("Number_Publisher_CPP"){
+            this->declare_parameter("number_to_publish", 10);
+            this->declare_parameter("publish_frequency", 1.0);
+
+            number_ = this->get_parameter("number_to_publish").as_int();
+            double frequency_ = this->get_parameter("publish_frequency").as_double();
             number_publisher_ = this->create_publisher<example_interfaces::msg::Int64>("number", 10);
-            number_timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&NumberPublisherNode::publishNumber, this));
+            number_timer_ = this->create_wall_timer(std::chrono::milliseconds((int) (1000.0 / frequency_)), std::bind(&NumberPublisherNode::publishNumber, this));
             RCLCPP_INFO(this->get_logger(), "CPP Number Publisher Node has been started");
         }
     private:
