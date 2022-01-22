@@ -1,0 +1,24 @@
+[5.637s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg': CMAKE_PREFIX_PATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg
+[7.269s] running develop
+[7.645s] running egg_info
+[7.648s] writing my_python_pkg.egg-info/PKG-INFO
+[7.656s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[7.662s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[7.666s] writing requirements to my_python_pkg.egg-info/requires.txt
+[7.669s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[7.801s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[7.914s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[8.097s] running build_ext
+[8.107s] Creating /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[8.126s] Installing add_two_ints script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.143s] Installing add_two_ints_no_oop script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.161s] Installing add_two_ints_oop script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.186s] Installing hardware_status_publisher script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.206s] Installing number_publisher script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.224s] Installing publisher script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.246s] Installing python_node script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.263s] Installing subscriber script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[8.288s] 
+[8.290s] Installed /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg
+[8.294s] running install_data
+[8.355s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg' returned '0': CMAKE_PREFIX_PATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/mnt/d/programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg

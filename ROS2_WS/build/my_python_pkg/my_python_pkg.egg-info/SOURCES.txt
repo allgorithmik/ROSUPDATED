@@ -14,6 +14,7 @@ my_python_pkg/__init__.py
 my_python_pkg/add_two_ints.py
 my_python_pkg/hw_status_publisher.py
 my_python_pkg/my_first_python_node.py
+my_python_pkg/number_publisher.py
 my_python_pkg/python_template.py
 my_python_pkg/service_client.py
 my_python_pkg/service_client_oop.py

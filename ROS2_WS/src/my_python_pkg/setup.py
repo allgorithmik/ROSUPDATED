@@ -26,7 +26,8 @@ setup(
             "add_two_ints = my_python_pkg.add_two_ints:main",
             "add_two_ints_no_oop = my_python_pkg.service_client:main",
             "add_two_ints_oop = my_python_pkg.service_client_oop:main",
-            "hardware_status_publisher = my_python_pkg.hw_status_publisher:main"
+            "hardware_status_publisher = my_python_pkg.hw_status_publisher:main",
+            "number_publisher = my_python_pkg.number_publisher:main"
         ],
     },
 )

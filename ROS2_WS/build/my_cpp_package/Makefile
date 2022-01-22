@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -91,6 +79,18 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -166,6 +166,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named number_publisher
+
+# Build rule for target.
+number_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_publisher
+.PHONY : number_publisher
+
+# fast build rule for target.
+number_publisher/fast:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
+.PHONY : number_publisher/fast
+
+#=============================================================================
+# Target rules for targets named my_cpp_package_uninstall
+
+# Build rule for target.
+my_cpp_package_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_cpp_package_uninstall
+.PHONY : my_cpp_package_uninstall
+
+# fast build rule for target.
+my_cpp_package_uninstall/fast:
+	$(MAKE) -f CMakeFiles/my_cpp_package_uninstall.dir/build.make CMakeFiles/my_cpp_package_uninstall.dir/build
+.PHONY : my_cpp_package_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named add_two_ints_client_no_oop
@@ -244,19 +270,6 @@ add_two_ints_server: cmake_check_build_system
 add_two_ints_server/fast:
 	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
 .PHONY : add_two_ints_server/fast
-
-#=============================================================================
-# Target rules for targets named my_cpp_package_uninstall
-
-# Build rule for target.
-my_cpp_package_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_cpp_package_uninstall
-.PHONY : my_cpp_package_uninstall
-
-# fast build rule for target.
-my_cpp_package_uninstall/fast:
-	$(MAKE) -f CMakeFiles/my_cpp_package_uninstall.dir/build.make CMakeFiles/my_cpp_package_uninstall.dir/build
-.PHONY : my_cpp_package_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named hw_status_check_cpp
@@ -419,6 +432,33 @@ src/my_first_cpp_node.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_cpp_node.cpp.s
 .PHONY : src/my_first_cpp_node.cpp.s
 
+src/number_publisher.o: src/number_publisher.cpp.o
+
+.PHONY : src/number_publisher.o
+
+# target to build an object file
+src/number_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+.PHONY : src/number_publisher.cpp.o
+
+src/number_publisher.i: src/number_publisher.cpp.i
+
+.PHONY : src/number_publisher.i
+
+# target to preprocess a source file
+src/number_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.i
+.PHONY : src/number_publisher.cpp.i
+
+src/number_publisher.s: src/number_publisher.cpp.s
+
+.PHONY : src/number_publisher.s
+
+# target to generate assembly for a file
+src/number_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
+.PHONY : src/number_publisher.cpp.s
+
 src/publisher.o: src/publisher.cpp.o
 
 .PHONY : src/publisher.o
@@ -479,17 +519,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... install/strip"
+	@echo "... number_publisher"
+	@echo "... list_install_components"
+	@echo "... my_cpp_package_uninstall"
 	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_client_oop"
 	@echo "... cpp_node"
 	@echo "... publisher"
 	@echo "... subscriber"
 	@echo "... add_two_ints_server"
-	@echo "... my_cpp_package_uninstall"
-	@echo "... list_install_components"
 	@echo "... hw_status_check_cpp"
 	@echo "... uninstall"
 	@echo "... test"
@@ -510,6 +551,9 @@ help:
 	@echo "... src/my_first_cpp_node.o"
 	@echo "... src/my_first_cpp_node.i"
 	@echo "... src/my_first_cpp_node.s"
+	@echo "... src/number_publisher.o"
+	@echo "... src/number_publisher.i"
+	@echo "... src/number_publisher.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
