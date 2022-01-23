@@ -1,0 +1,9 @@
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/install/strip.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/install/local.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/install.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/list_install_components.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/rebuild_cache.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/edit_cache.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/test.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/my_launch_pkg_uninstall.dir
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/CMakeFiles/uninstall.dir

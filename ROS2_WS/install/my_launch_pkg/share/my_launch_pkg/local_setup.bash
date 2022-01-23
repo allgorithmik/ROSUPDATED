@@ -1,0 +1,1 @@
+/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg/ament_cmake_environment_hooks/local_setup.bash

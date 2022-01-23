@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(my_interface_pkg)
+project(my_launch_pkg)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -12,11 +12,9 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/HardwareStatus.msg"
-  "srv/ComputeRectangleArea.srv"
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()

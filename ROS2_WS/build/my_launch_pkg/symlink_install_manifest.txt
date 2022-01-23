@@ -1,0 +1,16 @@
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/launch/number_app.launch.py
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/package_run_dependencies/my_launch_pkg
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/parent_prefix_path/my_launch_pkg
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.sh
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.dsv
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.sh
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.dsv
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.bash
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.sh
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.zsh
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.dsv
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.dsv
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/packages/my_launch_pkg
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig.cmake
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig-version.cmake
+/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.xml

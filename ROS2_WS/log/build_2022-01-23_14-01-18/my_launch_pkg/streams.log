@@ -1,0 +1,45 @@
+[0.153s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake /mnt/d/programming/ROS2/ROS2_WS/src/my_launch_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg
+[0.939s] -- The C compiler identification is GNU 10.3.0
+[1.615s] -- The CXX compiler identification is GNU 10.3.0
+[1.822s] -- Check for working C compiler: /usr/bin/cc
+[2.849s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.855s] -- Detecting C compiler ABI info
+[4.026s] -- Detecting C compiler ABI info - done
+[4.070s] -- Detecting C compile features
+[4.072s] -- Detecting C compile features - done
+[4.150s] -- Check for working CXX compiler: /usr/bin/c++
+[5.463s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.468s] -- Detecting CXX compiler ABI info
+[6.575s] -- Detecting CXX compiler ABI info - done
+[6.603s] -- Detecting CXX compile features
+[6.605s] -- Detecting CXX compile features - done
+[6.718s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.209s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.052s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.930s] -- Configuring done
+[10.079s] -- Generating done
+[10.120s] -- Build files have been written to: /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg
+[10.123s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake /mnt/d/programming/ROS2/ROS2_WS/src/my_launch_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg
+[10.136s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg -- -j12 -l12
+[10.655s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg -- -j12 -l12
+[11.195s] Invoking command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg
+[11.303s] -- Install configuration: ""
+[11.311s] -- Execute custom install script
+[11.339s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/launch/number_app.launch.py
+[11.488s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/package_run_dependencies/my_launch_pkg
+[11.627s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/parent_prefix_path/my_launch_pkg
+[11.766s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.sh
+[11.889s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.dsv
+[12.018s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.sh
+[12.151s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.dsv
+[12.282s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.bash
+[12.410s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.sh
+[12.537s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.zsh
+[12.663s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.dsv
+[12.797s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.dsv
+[12.943s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/packages/my_launch_pkg
+[13.083s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig.cmake
+[13.214s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig-version.cmake
+[13.346s] -- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.xml
+[13.474s] Invoked command in '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg

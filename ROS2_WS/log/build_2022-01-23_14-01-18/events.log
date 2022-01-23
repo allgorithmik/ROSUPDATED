@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (-) JobUnselected: {'identifier': 'my_cpp_package'}
+[0.001870] (-) JobUnselected: {'identifier': 'my_interface_pkg'}
+[0.002390] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.002836] (my_launch_pkg) JobQueued: {'identifier': 'my_launch_pkg', 'dependencies': OrderedDict()}
+[0.003380] (my_launch_pkg) JobStarted: {'identifier': 'my_launch_pkg'}
+[0.098433] (-) TimerEvent: {}
+[0.139215] (my_launch_pkg) JobProgress: {'identifier': 'my_launch_pkg', 'progress': 'cmake'}
+[0.146433] (my_launch_pkg) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/programming/ROS2/ROS2_WS/src/my_launch_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg'], 'cwd': '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.21.80.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/programming/ROS2/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'tcp:172.21.80.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/MATLAB/R2021b/runtime/win64:/mnt/d/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '74552830-b46d-48cb-ae20-56b1f57b7d26'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.198581] (-) TimerEvent: {}
+[0.299160] (-) TimerEvent: {}
+[0.399779] (-) TimerEvent: {}
+[0.500362] (-) TimerEvent: {}
+[0.601093] (-) TimerEvent: {}
+[0.702072] (-) TimerEvent: {}
+[0.802707] (-) TimerEvent: {}
+[0.903441] (-) TimerEvent: {}
+[0.941959] (my_launch_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.3.0\n'}
+[1.003549] (-) TimerEvent: {}
+[1.104097] (-) TimerEvent: {}
+[1.204728] (-) TimerEvent: {}
+[1.305359] (-) TimerEvent: {}
+[1.406014] (-) TimerEvent: {}
+[1.506641] (-) TimerEvent: {}
+[1.607414] (-) TimerEvent: {}
+[1.618085] (my_launch_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.3.0\n'}
+[1.707638] (-) TimerEvent: {}
+[1.808386] (-) TimerEvent: {}
+[1.824265] (my_launch_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.908648] (-) TimerEvent: {}
+[2.009699] (-) TimerEvent: {}
+[2.110670] (-) TimerEvent: {}
+[2.211400] (-) TimerEvent: {}
+[2.312076] (-) TimerEvent: {}
+[2.412604] (-) TimerEvent: {}
+[2.513247] (-) TimerEvent: {}
+[2.614029] (-) TimerEvent: {}
+[2.714538] (-) TimerEvent: {}
+[2.815173] (-) TimerEvent: {}
+[2.851937] (my_launch_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.857654] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.915319] (-) TimerEvent: {}
+[3.015841] (-) TimerEvent: {}
+[3.116684] (-) TimerEvent: {}
+[3.217338] (-) TimerEvent: {}
+[3.318032] (-) TimerEvent: {}
+[3.419142] (-) TimerEvent: {}
+[3.519947] (-) TimerEvent: {}
+[3.621073] (-) TimerEvent: {}
+[3.721866] (-) TimerEvent: {}
+[3.822692] (-) TimerEvent: {}
+[3.923268] (-) TimerEvent: {}
+[4.024160] (-) TimerEvent: {}
+[4.028865] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.072334] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.074513] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.124496] (-) TimerEvent: {}
+[4.152092] (my_launch_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.224604] (-) TimerEvent: {}
+[4.325467] (-) TimerEvent: {}
+[4.426737] (-) TimerEvent: {}
+[4.527697] (-) TimerEvent: {}
+[4.628661] (-) TimerEvent: {}
+[4.729636] (-) TimerEvent: {}
+[4.830367] (-) TimerEvent: {}
+[4.931244] (-) TimerEvent: {}
+[5.031952] (-) TimerEvent: {}
+[5.133039] (-) TimerEvent: {}
+[5.233950] (-) TimerEvent: {}
+[5.334974] (-) TimerEvent: {}
+[5.435624] (-) TimerEvent: {}
+[5.465596] (my_launch_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.470686] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.535746] (-) TimerEvent: {}
+[5.636540] (-) TimerEvent: {}
+[5.737110] (-) TimerEvent: {}
+[5.838103] (-) TimerEvent: {}
+[5.938855] (-) TimerEvent: {}
+[6.039797] (-) TimerEvent: {}
+[6.140413] (-) TimerEvent: {}
+[6.241082] (-) TimerEvent: {}
+[6.341753] (-) TimerEvent: {}
+[6.442450] (-) TimerEvent: {}
+[6.543054] (-) TimerEvent: {}
+[6.577324] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.606129] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.607383] (my_launch_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.643225] (-) TimerEvent: {}
+[6.720424] (my_launch_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.743417] (-) TimerEvent: {}
+[6.843958] (-) TimerEvent: {}
+[6.944575] (-) TimerEvent: {}
+[7.045174] (-) TimerEvent: {}
+[7.145990] (-) TimerEvent: {}
+[7.210350] (my_launch_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.212871] (my_launch_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.246193] (-) TimerEvent: {}
+[7.346910] (-) TimerEvent: {}
+[7.447602] (-) TimerEvent: {}
+[7.548253] (-) TimerEvent: {}
+[7.649165] (-) TimerEvent: {}
+[7.749877] (-) TimerEvent: {}
+[7.850493] (-) TimerEvent: {}
+[7.951343] (-) TimerEvent: {}
+[8.051997] (-) TimerEvent: {}
+[8.054981] (my_launch_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.152117] (-) TimerEvent: {}
+[8.252676] (-) TimerEvent: {}
+[8.353305] (-) TimerEvent: {}
+[8.453895] (-) TimerEvent: {}
+[8.554593] (-) TimerEvent: {}
+[8.655341] (-) TimerEvent: {}
+[8.755951] (-) TimerEvent: {}
+[8.856639] (-) TimerEvent: {}
+[8.957343] (-) TimerEvent: {}
+[9.058073] (-) TimerEvent: {}
+[9.158652] (-) TimerEvent: {}
+[9.259329] (-) TimerEvent: {}
+[9.359900] (-) TimerEvent: {}
+[9.460548] (-) TimerEvent: {}
+[9.561288] (-) TimerEvent: {}
+[9.661827] (-) TimerEvent: {}
+[9.762421] (-) TimerEvent: {}
+[9.863219] (-) TimerEvent: {}
+[9.932513] (my_launch_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.963369] (-) TimerEvent: {}
+[10.063949] (-) TimerEvent: {}
+[10.081680] (my_launch_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[10.122787] (my_launch_pkg) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg\n'}
+[10.126197] (my_launch_pkg) CommandEnded: {'returncode': 0}
+[10.132116] (my_launch_pkg) JobProgress: {'identifier': 'my_launch_pkg', 'progress': 'build'}
+[10.137285] (my_launch_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg', '--', '-j12', '-l12'], 'cwd': '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.21.80.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/programming/ROS2/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'tcp:172.21.80.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/MATLAB/R2021b/runtime/win64:/mnt/d/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '74552830-b46d-48cb-ae20-56b1f57b7d26'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[10.164060] (-) TimerEvent: {}
+[10.264671] (-) TimerEvent: {}
+[10.365228] (-) TimerEvent: {}
+[10.465978] (-) TimerEvent: {}
+[10.566684] (-) TimerEvent: {}
+[10.657950] (my_launch_pkg) CommandEnded: {'returncode': 0}
+[10.667167] (-) TimerEvent: {}
+[10.768143] (-) TimerEvent: {}
+[10.868751] (-) TimerEvent: {}
+[10.969415] (-) TimerEvent: {}
+[11.070053] (-) TimerEvent: {}
+[11.081871] (my_launch_pkg) JobProgress: {'identifier': 'my_launch_pkg', 'progress': 'install'}
+[11.170228] (-) TimerEvent: {}
+[11.196302] (my_launch_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg'], 'cwd': '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.21.80.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/programming/ROS2/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'tcp:172.21.80.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/MATLAB/R2021b/runtime/win64:/mnt/d/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '74552830-b46d-48cb-ae20-56b1f57b7d26'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/programming/ROS2/ROS2_WS/build/my_launch_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package:/mnt/d/Programming/ROS2/ROS2_WS/install/my_interface_pkg:/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[11.270359] (-) TimerEvent: {}
+[11.304942] (my_launch_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.314215] (my_launch_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.341805] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/launch/number_app.launch.py\n'}
+[11.370533] (-) TimerEvent: {}
+[11.471320] (-) TimerEvent: {}
+[11.490601] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/package_run_dependencies/my_launch_pkg\n'}
+[11.571442] (-) TimerEvent: {}
+[11.629675] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/parent_prefix_path/my_launch_pkg\n'}
+[11.671563] (-) TimerEvent: {}
+[11.768497] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.sh\n'}
+[11.771679] (-) TimerEvent: {}
+[11.872312] (-) TimerEvent: {}
+[11.891665] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.dsv\n'}
+[11.972473] (-) TimerEvent: {}
+[12.021020] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.sh\n'}
+[12.072636] (-) TimerEvent: {}
+[12.154196] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/environment/path.dsv\n'}
+[12.172843] (-) TimerEvent: {}
+[12.273537] (-) TimerEvent: {}
+[12.284704] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.bash\n'}
+[12.373693] (-) TimerEvent: {}
+[12.412944] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.sh\n'}
+[12.473839] (-) TimerEvent: {}
+[12.539653] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.zsh\n'}
+[12.574033] (-) TimerEvent: {}
+[12.666077] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/local_setup.dsv\n'}
+[12.674164] (-) TimerEvent: {}
+[12.774881] (-) TimerEvent: {}
+[12.799319] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.dsv\n'}
+[12.875052] (-) TimerEvent: {}
+[12.946173] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/ament_index/resource_index/packages/my_launch_pkg\n'}
+[12.975203] (-) TimerEvent: {}
+[13.075757] (-) TimerEvent: {}
+[13.086096] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig.cmake\n'}
+[13.175904] (-) TimerEvent: {}
+[13.216802] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig-version.cmake\n'}
+[13.276070] (-) TimerEvent: {}
+[13.348546] (my_launch_pkg) StdoutLine: {'line': b'-- Symlinking: /mnt/d/programming/ROS2/ROS2_WS/install/my_launch_pkg/share/my_launch_pkg/package.xml\n'}
+[13.376189] (-) TimerEvent: {}
+[13.476350] (my_launch_pkg) CommandEnded: {'returncode': 0}
+[13.479164] (-) TimerEvent: {}
+[13.579757] (-) TimerEvent: {}
+[13.680366] (-) TimerEvent: {}
+[13.781513] (-) TimerEvent: {}
+[13.882191] (-) TimerEvent: {}
+[13.982723] (-) TimerEvent: {}
+[14.083335] (-) TimerEvent: {}
+[14.183834] (-) TimerEvent: {}
+[14.284450] (-) TimerEvent: {}
+[14.385098] (-) TimerEvent: {}
+[14.442594] (my_launch_pkg) JobEnded: {'identifier': 'my_launch_pkg', 'rc': 0}
+[14.451731] (-) EventReactorShutdown: {}
